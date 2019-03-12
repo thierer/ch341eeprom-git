@@ -1,14 +1,14 @@
 pkgname=ch341eeprom-git
 _gitname=ch341eeprom
-pkgver=r33.cc398a0
+pkgver=r50.0af7b0b
 pkgrel=1
 pkgdesc="A libusb based programming tool for 24xx I²C EEPROMs using the WCH CH341A"
 arch=('i686' 'x86_64' 'armv6h' 'armv7h')
-url="https://github.com/commandtab/ch341eeprom"
+url="https://github.com/plumbum/ch341eeprom"
 license=('GPL')
 depends=('libusb>=1')
 makedepends=('clang' 'git')
-source=("${_gitname}::git+https://github.com/commandtab/ch341eeprom.git")
+source=("${_gitname}::git+https://github.com/plumbum/ch341eeprom.git")
 md5sums=('SKIP')
 
 pkgver() {

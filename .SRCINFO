@@ -1,8 +1,8 @@
 pkgbase = ch341eeprom-git
 	pkgdesc = A libusb based programming tool for 24xx I²C EEPROMs using the WCH CH341A
-	pkgver = r33.cc398a0
+	pkgver = r50.0af7b0b
 	pkgrel = 1
-	url = https://github.com/commandtab/ch341eeprom
+	url = https://github.com/plumbum/ch341eeprom
 	arch = i686
 	arch = x86_64
 	arch = armv6h
@@ -11,7 +11,7 @@ pkgbase = ch341eeprom-git
 	makedepends = clang
 	makedepends = git
 	depends = libusb>=1
-	source = ch341eeprom::git+https://github.com/commandtab/ch341eeprom.git
+	source = ch341eeprom::git+https://github.com/plumbum/ch341eeprom.git
 	md5sums = SKIP
 
 pkgname = ch341eeprom-git
